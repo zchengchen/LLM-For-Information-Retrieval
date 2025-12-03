@@ -9,7 +9,7 @@ This list currently includes the methods used in our comparison table.
 ---
 
 ## Notes
-
+- 20 papers after 2022 are selected in `bibtex.txt`.
 - Papers are grouped by **pipeline stage** and **sorted chronologically** within each group.
 - For preprints, we mark the venue as `arXiv` (or workshop) according to the BibTeX entry.
 - Model names in parentheses are the commonly used short names in the IR community.

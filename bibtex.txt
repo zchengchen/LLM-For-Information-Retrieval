@@ -1,0 +1,174 @@
+% --- Part 1: Surveys ---
+
+@article{survey1,
+  author = {Zhu, Yutao and Yuan, Huaying and Wang, Shuting and Liu, Jiongnan and Liu, Wenhan and Deng, Chenlong and Chen, Haonan and Liu, Zheng and Dou, Zhicheng and Wen, Ji-Rong},
+  title = {Large Language Models for Information Retrieval: A Survey},
+  year = {2025},
+  journal = {ACM Trans. Inf. Syst.},
+  month = nov,
+  articleno = {12},
+  numpages = {54},
+  keywords = {Large Language Models, Information Retrieval, Query Rewriter, Reranking, Reader, Fine-tuning, Prompting}
+}
+
+@article{survey2,
+  author = {Li, Xiaoxi and Jin, Jiajie and Zhou, Yujia and Zhang, Yuyao and Zhang, Peitian and Zhu, Yutao and Dou, Zhicheng},
+  title = {From Matching to Generation: A Survey on Generative Information Retrieval},
+  year = {2025},
+  journal = {ACM Trans. Inf. Syst.},
+  month = may,
+  articleno = {83},
+  numpages = {62},
+  keywords = {Generative Information Retrieval, Generative Document Retrieval, Reliable Response Generation}
+}
+
+% --- Part 2: Query Reformulation ---
+
+@article{hyde,
+  title={Precise zero-shot dense retrieval without relevance labels, 2022},
+  author={Gao, Luyu and Ma, Xueguang and Lin, Jimmy and Callan, Jamie},
+  journal={URL https://arxiv. org/abs/2212.10496},
+  year={2022}
+}
+
+@article{query2doc,
+  title={Query2doc: Query expansion with large language models},
+  author={Wang, Liang and Yang, Nan and Wei, Furu},
+  journal={arXiv preprint arXiv:2303.07678},
+  year={2023}
+}
+
+@article{LLM-Rewriter,
+  title={Large language models are strong zero-shot retriever},
+  author={Shen, Tao and Long, Guodong and Geng, Xiubo and Tao, Chongyang and Zhou, Tianyi and Jiang, Daxin},
+  journal={arXiv preprint arXiv:2304.14233},
+  year={2023}
+}
+
+% --- Part 3: Indexing & Retrieval ---
+
+@article{e5,
+  title={Text embeddings by weakly-supervised contrastive pre-training},
+  author={Wang, Liang and Yang, Nan and Huang, Xiaolong and Jiao, Binxing and Yang, Linjun and Jiang, Daxin and Majumder, Rangan and Wei, Furu},
+  journal={arXiv preprint arXiv:2212.03533},
+  year={2022}
+}
+
+@article{dsi,
+  title={Transformer memory as a differentiable search index},
+  author={Tay, Yi and Tran, Vinh and Dehghani, Mostafa and Ni, Jianmo and Bahri, Dara and Mehta, Harsh and Qin, Zhen and Hui, Kai and Zhao, Zhe and Gupta, Jai and others},
+  journal={Advances in Neural Information Processing Systems},
+  volume={35},
+  pages={21831--21843},
+  year={2022}
+}
+
+@ARTICLE{webultron,
+  author={Zhou, Yujia and Yao, Jing and Wu, Ledell and Dou, Zhicheng and Wen, Ji-Rong},
+  journal={IEEE Transactions on Knowledge and Data Engineering}, 
+  title={WebUltron: An Ultimate Retriever on Webpages Under the Model-Centric Paradigm}, 
+  year={2024},
+  volume={36},
+  number={9},
+  pages={4996-5006},
+  doi={10.1109/TKDE.2023.3332858}
+}
+
+@inproceedings{RepLLaMA,
+  title={Fine-tuning llama for multi-stage text retrieval},
+  author={Ma, Xueguang and Wang, Liang and Yang, Nan and Wei, Furu and Lin, Jimmy},
+  booktitle={Proceedings of the 47th International ACM SIGIR Conference on Research and Development in Information Retrieval},
+  pages={2421--2425},
+  year={2024}
+}
+
+% --- Part 4: Re-ranking ---
+
+@article{rankgpt,
+  title={Is ChatGPT good at search? investigating large language models as re-ranking agents},
+  author={Sun, Weiwei and Yan, Lingyong and Ma, Xinyu and Wang, Shuaiqiang and Ren, Pengjie and Chen, Zhumin and Yin, Dawei and Ren, Zhaochun},
+  journal={arXiv preprint arXiv:2304.09542},
+  year={2023}
+}
+
+@inproceedings{RankLLaMA_SIGIR,
+  author = {Ma, Xueguang and Wang, Liang and Yang, Nan and Wei, Furu and Lin, Jimmy},
+  title = {Fine-Tuning LLaMA for Multi-Stage Text Retrieval},
+  year = {2024},
+  booktitle = {Proceedings of the 47th International ACM SIGIR Conference on Research and Development in Information Retrieval},
+  pages = {2421–2425},
+  series = {SIGIR '24}
+}
+
+@article{rankvicuna,
+  title={Rankvicuna: Zero-shot listwise document reranking with open-source large language models},
+  author={Pradeep, Ronak and Sharifymoghaddam, Sahel and Lin, Jimmy},
+  journal={arXiv preprint arXiv:2309.15088},
+  year={2023}
+}
+
+@inproceedings{RankRAG_NIPS,
+  author = {Yu, Yue and Ping, Wei and Liu, Zihan and Wang, Boxin and You, Jiaxuan and Zhang, Chao and Shoeybi, Mohammad and Catanzaro, Bryan},
+  title = {RankRAG: unifying context ranking with retrieval-augmented generation in LLMs},
+  year = {2024},
+  booktitle = {Proceedings of the 38th International Conference on Neural Information Processing Systems},
+  series = {NIPS '24}
+}
+
+@inproceedings{listaware_www,
+  author = {Xu, Shicheng and Pang, Liang and Xu, Jun and Shen, Huawei and Cheng, Xueqi},
+  title = {List-aware Reranking-Truncation Joint Model for Search and Retrieval-augmented Generation},
+  year = {2024},
+  booktitle = {Proceedings of the ACM Web Conference 2024},
+  pages = {1330–1340},
+  series = {WWW '24}
+}
+
+% --- Part 5: Answer Generation & RAG ---
+
+@inproceedings{selfrag,
+  title={Self-rag: Self-reflective retrieval augmented generation},
+  author={Asai, Akari and Wu, Zeqiu and Wang, Yizhong and Sil, Avirup and Hajishirzi, Hannaneh},
+  booktitle={NeurIPS 2023 workshop on instruction tuning and instruction following},
+  year={2023}
+}
+
+@article{crag,
+  title={Corrective retrieval augmented generation},
+  author={Yan, Shi-Qi and Gu, Jia-Chen and Zhu, Yun and Ling, Zhen-Hua},
+  year={2024}
+}
+
+@inproceedings{activerag,
+  title={Active retrieval augmented generation},
+  author={Jiang, Zhengbao and Xu, Frank F and Gao, Luyu and Sun, Zhiqing and Liu, Qian and Dwivedi-Yu, Jane and Yang, Yiming and Callan, Jamie and Neubig, Graham},
+  booktitle={Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing},
+  pages={7969--7992},
+  year={2023}
+}
+
+@inproceedings{freshllms,
+  title={Freshllms: Refreshing large language models with search engine augmentation},
+  author={Vu, Tu and Iyyer, Mohit and Wang, Xuezhi and Constant, Noah and Wei, Jerry and Wei, Jason and Tar, Chris and Sung, Yun-Hsuan and Zhou, Denny and Le, Quoc and others},
+  booktitle={Findings of the Association for Computational Linguistics: ACL 2024},
+  pages={13697--13720},
+  year={2024}
+}
+
+% --- Part 6: Evaluation ---
+
+@inproceedings{ragas,
+  title={Ragas: Automated evaluation of retrieval augmented generation},
+  author={Es, Shahul and James, Jithin and Anke, Luis Espinosa and Schockaert, Steven},
+  booktitle={Proceedings of the 18th Conference of the European Chapter of the Association for Computational Linguistics: System Demonstrations},
+  pages={150--158},
+  year={2024}
+}
+
+@inproceedings{mteb,
+  title={Mteb: Massive text embedding benchmark},
+  author={Muennighoff, Niklas and Tazi, Nouamane and Magne, Lo{\"\i}c and Reimers, Nils},
+  booktitle={Proceedings of the 17th Conference of the European Chapter of the Association for Computational Linguistics},
+  pages={2014--2037},
+  year={2023}
+}
